@@ -1,0 +1,6 @@
+class Hike < ApplicationRecord
+    has_many :comments 
+    has_many :users 
+    
+
+end
